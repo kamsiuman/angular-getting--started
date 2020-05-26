@@ -11,14 +11,14 @@ export interface IProduct {
 
 export class Product implements IProduct {
   constructor(
+    public productId: number,
     public productCode: string,
     public productName: string,
     public releaseDate: string,
     public price: number,
     public description: string,
     public starRating: number,
-    public imageUrl: string,
-    public productId: number
+    public imageUrl: string
   ) {}
 
   calculateDiscount(percent: number): number {

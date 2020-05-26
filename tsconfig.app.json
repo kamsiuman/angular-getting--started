@@ -6,6 +6,8 @@
   },
   "files": [
     "src/main.ts",
+    // "src/app/shared/convert-to-spaces.pipe.ts",
+    // "src/app/shared/convert-to-spaces.pipe.ts",
     "src/polyfills.ts"
   ],
   "include": [

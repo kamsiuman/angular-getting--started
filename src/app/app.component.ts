@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'pm-root',
   // linked template
+  // templateUrl: './app.component.html',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
