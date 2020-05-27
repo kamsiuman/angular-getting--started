@@ -1,14 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to that  alex with mark again 2020/05/16 {{title}}!!
-  </h1>
-
-
-  <div>
-      <h1>{{title}}</h1>
-      <pm-products></pm-products>
-  </div>
-
-  ... Starter Files ...
-</div>
+  <nav class='navbar navbar-expand navbar-light bg-light'>
+    <a class='nav-bar-brand'>{{pageTitle}}</a>
+    <ul class='nav nav-pills'>
+    <li><a class='nav-link' [routerLink]="['/Welcome']">Home</a></li>
+    <li><a class='nav-link' [routerLink]="['/products']">Product List</a></li>
+    </ul>
+  </nav>
+    <div class='container'>
+      <router-outlet></router-outlet>
+    </div>
